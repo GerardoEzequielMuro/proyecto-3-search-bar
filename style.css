@@ -38,6 +38,7 @@ img{
     justify-content: space-between;
     align-items: center;
     box-shadow: 5px 5px 5px #bdc1c6;
+    transition: transform 200ms;
 }
 
 
@@ -51,12 +52,13 @@ img{
    outline: none;
 }
 
-
+.search-bar img:hover{
+    transform: translateY(-2px);
+}
 .right-zone img{
     width: 1.5rem;
     cursor: pointer;
     margin: 0 15px;
-
 }
 
 .left-zone img{
