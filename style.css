@@ -1,0 +1,69 @@
+/* ****** Mini Resets ****** */
+html{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+*,
+*::after,
+*::before{
+    box-sizing: inherit;
+}
+
+
+body{
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-size: 1rem;
+    font-family: arial,sans-serif;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+/* ********** Search bar ********** */
+.search-bar{
+    width: 97%;
+    height: 3.125rem;
+    margin: 0.9375rem auto;
+    border-radius: 1.5625rem;
+    border: 2px solid #bdc1c6;
+    display: flex;
+    flex-wrap: nowrap;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 5px 5px 5px #bdc1c6;
+}
+
+
+
+.search-bar input{
+    width: 90%;
+   background-color: transparent;
+   border: none;
+   margin: 0;
+   padding: 0;
+   outline: none;
+}
+
+
+.right-zone img{
+    width: 1.5rem;
+    cursor: pointer;
+    margin: 0 15px;
+
+}
+
+.left-zone img{
+    width: 1.5rem;
+    cursor: pointer;
+    margin: 0 15px;
+}
+
+
+
